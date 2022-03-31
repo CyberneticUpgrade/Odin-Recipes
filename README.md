@@ -8,13 +8,13 @@ Plan structure:
 HTML first to include sections for
 -Overview (Prep-time, Level of difficulty, Servings yield, etc.)
 -Ingredients (and subsections)
--Itemized Breakdown of meal (and subsections)
+-Itemized Breakdown of meal (and subsections) [Example below:]
     *Duxelles
     *Beef
     *Green Peppercorn Sauce
     *Fingerling Potatoes
     *Wilted Winter Greens
--Directions (and subsections)
+-Directions (and subsections) [Example below:]
     *Duxelles
     *Beef
     *Green Peppercorn Sauce
@@ -28,6 +28,7 @@ From here this README will be update each time an atomic commit is made along wi
 Initial atomic commit: 3/31/2022
 -Main Page
 -4 Recipes landing pages
-    *Beef Wellington
-    *Ramen
-    *
+    *Beef Wellington - Winter
+    *Ramen (Spicy Chicken) - Fall
+    *Chicken Katsu - Summer
+    *Apricot Chicken - Spring
