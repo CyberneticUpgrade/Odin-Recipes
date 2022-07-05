@@ -32,3 +32,12 @@ Initial atomic commit: 3/31/2022
     *Ramen (Spicy Chicken) - Fall
     *Chicken Katsu - Summer
     *Apricot Chicken - Spring
+
+--------------------------------
+
+Long-Overdue Commit: 7/5/2022
+-Linked all respective pages
+-Added universal navbar
+-Updated index "hero" page
+-CSS updated in all pages (navigation mostly)
+-HTML tweaked

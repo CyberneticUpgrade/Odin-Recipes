@@ -1,0 +1,67 @@
+/*Images set to single line and flexible using flexbox*/
+#navbar {
+    background: #000; 
+    color: rgb(255, 255, 255); 
+    line-height: 1; 
+}
+
+#navbar .nav-list {
+    display: flex;
+    padding-bottom: 1em;
+    overflow: hidden;
+}
+
+/*size basing and hyperlink/img resource setup*/
+#navbar .nav-list li{
+    width: 30.1%;
+    margin-right: -7.15%;
+    -webkit-clip-path: polygon(25% 0, 100% 0, 25% 100%, 0 100%);
+    clip-path: polygon(25% 0, 100% 0, 75% 100%, 0 100%);
+}
+
+#navbar .nav-list a{
+    color: rgb(0, 0, 0);
+    text-decoration: inherit;
+    display: block;
+    padding: 1px;
+}
+
+/*CSS to focus on IMG tweaking*/
+#navbar .nav-list img {
+    display: block;
+    height: 60rem;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 20%;
+}
+
+#navbar .nav-list div{
+    padding: 0.5em 0;
+    padding-left: 2%;
+    padding-right: 26%;
+    border-top: 2px solid transparent;
+    background: linear-gradient(100deg, rgb(141, 141, 141) 50%, transparent);
+    background-clip: padding-box;
+}
+
+#navbar .nav-list strong {
+    display: block;
+    font-weight: 900;
+    padding-left: 1%;
+}
+
+/*CSS for IMG clipping to achieve different shapes*/
+@supports (clip-path: polygon(0 0) or (-webkit-clip-path polygon(0 0)) {
+    #navbar .nav-list li {
+        width: 37.5%;
+        -webkit-clip-path: polygon(25% 0, 100% 0, 75% 100%, 0 100%);
+        clip-path: polygon (25% 0, 100% 0, 75% 100%, 0 100%);
+    }
+}
+
+@media (max-width: 35rem) {
+    #navbar .nav-list div {
+        opacity: 0.01;
+    }
+}
+
