@@ -1,8 +1,51 @@
+/*CSS Banner for all webpage links*/
+header.linknav{
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+  }
+  
+ul.linknav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+li.linknav {
+    float: left;
+  }
+  
+li.linknav a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+/* Change the link color to #111 or (black) on hover */
+li.linknav a:hover {
+    background-color: rgb(0, 0, 0);
+    box-shadow: 2px 2px 3px rgba(255, 255, 255, 0.616);
+    color: rgb(255, 255, 255);
+  }
+
+/*BODY CSS*/
+body {
+    background-color: rgb(0, 0, 0);
+}
+
 /*Images set to single line and flexible using flexbox*/
 #navbar {
     background: #000; 
     color: rgb(255, 255, 255); 
-    line-height: 1; 
+    line-height: 1;
 }
 
 #navbar .nav-list {
@@ -29,7 +72,7 @@
 /*CSS to focus on IMG tweaking*/
 #navbar .nav-list img {
     display: block;
-    height: 60rem;
+    height: 69rem;
     width: 100%;
     object-fit: cover;
     object-position: 50% 20%;
