@@ -44,3 +44,16 @@ Long-Overdue Commit: 7/5/2022
 -Begin work on Chicken Katsu (yum) HTML/CSS
 
 *Grid CSS considered for ease of use and organization for page layout.
+
+--------------------------------
+
+Commit: 7/6/2022
+-Added more content to several HTML documents
+    +Chicken Katsu
+    +Spicy Chicken Ramen
+    +Apricot Chicken
+-Began class labeling various tags throughout the updated HTML docs
+-Brainstorming more content to add
+-Brainstorming CSS layout
+-README updated
+-Looking into resources for icons/sound queues/UI-UX
