@@ -41,3 +41,6 @@ Long-Overdue Commit: 7/5/2022
 -Updated index "hero" page
 -CSS updated in all pages (navigation mostly)
 -HTML tweaked
+-Begin work on Chicken Katsu (yum) HTML/CSS
+
+*Grid CSS considered for ease of use and organization for page layout.
